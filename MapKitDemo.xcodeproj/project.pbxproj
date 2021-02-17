@@ -15,6 +15,12 @@
 		60F4BAC725DCE72800DAAFAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60F4BAC525DCE72800DAAFAD /* LaunchScreen.storyboard */; };
 		60F4BAD225DCE72800DAAFAD /* MapKitDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F4BAD125DCE72800DAAFAD /* MapKitDemoTests.swift */; };
 		60F4BADD25DCE72800DAAFAD /* MapKitDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F4BADC25DCE72800DAAFAD /* MapKitDemoUITests.swift */; };
+		60F4BAEE25DCE75D00DAAFAD /* SwiftUIMapKitTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F4BAED25DCE75D00DAAFAD /* SwiftUIMapKitTutorialApp.swift */; };
+		60F4BAF425DCFE4100DAAFAD /* LandMarkAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F4BAF325DCFE4100DAAFAD /* LandMarkAnnotation.swift */; };
+		60F4BAF925DD008900DAAFAD /* MapViewCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F4BAF825DD008900DAAFAD /* MapViewCoordinate.swift */; };
+		60F4BAFE25DD14C100DAAFAD /* locationPin.png in Resources */ = {isa = PBXBuildFile; fileRef = 60F4BAFD25DD14C100DAAFAD /* locationPin.png */; };
+		60F4BB0725DD375100DAAFAD /* RouteDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F4BB0625DD375100DAAFAD /* RouteDemo.swift */; };
+		60F4BB0C25DD40E100DAAFAD /* CurrentLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F4BB0B25DD40E100DAAFAD /* CurrentLocationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		60F4BAD825DCE72800DAAFAD /* MapKitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapKitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60F4BADC25DCE72800DAAFAD /* MapKitDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitDemoUITests.swift; sourceTree = "<group>"; };
 		60F4BADE25DCE72800DAAFAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60F4BAED25DCE75D00DAAFAD /* SwiftUIMapKitTutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMapKitTutorialApp.swift; sourceTree = "<group>"; };
+		60F4BAF325DCFE4100DAAFAD /* LandMarkAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandMarkAnnotation.swift; sourceTree = "<group>"; };
+		60F4BAF825DD008900DAAFAD /* MapViewCoordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewCoordinate.swift; sourceTree = "<group>"; };
+		60F4BAFD25DD14C100DAAFAD /* locationPin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = locationPin.png; sourceTree = "<group>"; };
+		60F4BB0625DD375100DAAFAD /* RouteDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteDemo.swift; sourceTree = "<group>"; };
+		60F4BB0B25DD40E100DAAFAD /* CurrentLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentLocationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +116,14 @@
 				60F4BABE25DCE72700DAAFAD /* ContentView.swift */,
 				60F4BAC025DCE72800DAAFAD /* Assets.xcassets */,
 				60F4BAC525DCE72800DAAFAD /* LaunchScreen.storyboard */,
+				60F4BAFD25DD14C100DAAFAD /* locationPin.png */,
 				60F4BAC825DCE72800DAAFAD /* Info.plist */,
 				60F4BAC225DCE72800DAAFAD /* Preview Content */,
+				60F4BAED25DCE75D00DAAFAD /* SwiftUIMapKitTutorialApp.swift */,
+				60F4BAF325DCFE4100DAAFAD /* LandMarkAnnotation.swift */,
+				60F4BAF825DD008900DAAFAD /* MapViewCoordinate.swift */,
+				60F4BB0625DD375100DAAFAD /* RouteDemo.swift */,
+				60F4BB0B25DD40E100DAAFAD /* CurrentLocationView.swift */,
 			);
 			path = MapKitDemo;
 			sourceTree = "<group>";
@@ -242,6 +260,7 @@
 				60F4BAC725DCE72800DAAFAD /* LaunchScreen.storyboard in Resources */,
 				60F4BAC425DCE72800DAAFAD /* Preview Assets.xcassets in Resources */,
 				60F4BAC125DCE72800DAAFAD /* Assets.xcassets in Resources */,
+				60F4BAFE25DD14C100DAAFAD /* locationPin.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,8 +286,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				60F4BABB25DCE72700DAAFAD /* AppDelegate.swift in Sources */,
+				60F4BAF425DCFE4100DAAFAD /* LandMarkAnnotation.swift in Sources */,
 				60F4BABD25DCE72700DAAFAD /* SceneDelegate.swift in Sources */,
+				60F4BB0C25DD40E100DAAFAD /* CurrentLocationView.swift in Sources */,
+				60F4BAF925DD008900DAAFAD /* MapViewCoordinate.swift in Sources */,
 				60F4BABF25DCE72700DAAFAD /* ContentView.swift in Sources */,
+				60F4BB0725DD375100DAAFAD /* RouteDemo.swift in Sources */,
+				60F4BAEE25DCE75D00DAAFAD /* SwiftUIMapKitTutorialApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

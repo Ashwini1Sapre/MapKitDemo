@@ -4,10 +4,10 @@
 //
 //  Created by Knoxpo MacBook Pro on 17/02/21.
 //
-
+//SwiftUIMaoAnnotationTutorial
 import UIKit
 
-@main
+
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
